@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "flood-fill",
+	"version": "1.0.0",
+	"name": "Flood Fill",
+	"description": "Adds server-side flood fill commands.",
+	"authors": [
+		"nanorover59"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/flood-fill",
+		"sources": "https://github.com/nanorover59/Flood-Fill"
+	},
+	"license": "MIT License",
+	"icon": "assets/flood-fill/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"flood.FloodFill"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
